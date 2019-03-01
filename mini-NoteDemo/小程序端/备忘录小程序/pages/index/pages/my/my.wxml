@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<!--<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <view class="text-view"> 
+      <text class="userinfo-nickname">欢迎，{{userInfo.nickName}}</text>
+      </view>
+    </block>
+  </view>
+</view>-->
+<!--wx.getUserInfo升级-->
+<image src="{{url}}"></image>
+<view class="text-view">
+<text>欢迎，{{username}}</text>
+</view>
+<button 
+     wx:if="{{canIUse&&!hasUserInfo}}"
+     open-type="getUserInfo"
+     bindgetuserinfo="bindGetUserInfo"
+>登录</button>

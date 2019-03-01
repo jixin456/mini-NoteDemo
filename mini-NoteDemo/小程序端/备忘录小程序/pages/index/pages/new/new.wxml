@@ -1,0 +1,12 @@
+<!--pages/new/new.wxml-->
+<form bindsubmit="onSubmit"> 
+     <view>
+          <!--<textarea class="text" maxlength="5000" auto-height="false" placeholder-class="placeholder" name="content"
+          placeholder="点击添加文本"></textarea>-->
+          <textarea placeholder="点击添加内容" maxlength="5000" name="content"></textarea>
+     </view>
+     <view>
+          <button type="primary"form-type="submit">保存</button>
+     </view>
+</form>
+

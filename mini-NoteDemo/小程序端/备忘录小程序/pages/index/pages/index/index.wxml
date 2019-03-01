@@ -1,0 +1,3 @@
+<button bindtap="navigateTo_New"><image src="../../images/add01.svg"></image></button>
+<brickLayout dataSet="{{item}}"  option="{{brick_option}}"/>
+

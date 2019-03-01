@@ -1,0 +1,4 @@
+/* my.wxss */
+.text-view{
+     text-align: center;
+}
